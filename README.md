@@ -24,7 +24,7 @@
 
 ---
 
-## 1. 일정 목록 조회
+## 1. 일정 전체 조회
 - Method: GET
 - URL: /schedules
 
@@ -72,15 +72,15 @@
 ```
 ---
 
-## 3. 일정 상세 조회
+## 3. 일정 단일 조회
 - Method: GET
-- URL: /schedules/{id}
+- URL: /schedules/{writer}
 
 ---
 
 ## 4. 일정 수정
 - Method: PUT
-- URL: /schedules/{id}
+- URL: /schedules/{writer}
 
 요청 예시  
 ```
